@@ -24,3 +24,9 @@ dependencies {
     implementation "com.facebook.react:react-native:${safeExtGet('reactNativeVersion', '+')}"
     implementation 'com.github.MatrixFrog:android-scalablevideoview:v1.0.4-jitpack'
 }
+
+allprojects {
+    repositories {
+        maven { url 'https://www.jitpack.io' }
+    }
+}
